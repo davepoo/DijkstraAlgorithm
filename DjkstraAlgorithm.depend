@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1401878935 source:/home/dave/Documents/DjkstraAlgorithm/main.cpp
+	"cGraph.h"
+	"cNode.h"
+	<iostream>
+
+1401820321 source:/home/dave/Documents/DjkstraAlgorithm/src/cEdge.cpp
+	"cEdge.h"
+
+1401825841 /home/dave/Documents/DjkstraAlgorithm/include/cEdge.h
+
+1401830448 source:/home/dave/Documents/DjkstraAlgorithm/src/cGraph.cpp
+	"cGraph.h"
+	"Types.h"
+	"cNode.h"
+
+1401829313 /home/dave/Documents/DjkstraAlgorithm/include/cGraph.h
+	<string>
+	<vector>
+
+1401829225 source:/home/dave/Documents/DjkstraAlgorithm/src/cNode.cpp
+	"cNode.h"
+	"cEdge.h"
+	"Types.h"
+
+1401829259 /home/dave/Documents/DjkstraAlgorithm/include/cNode.h
+	<string>
+	<vector>
+
+1401824058 /home/dave/Documents/DjkstraAlgorithm/include/Types.h
+	<iostream>
+
