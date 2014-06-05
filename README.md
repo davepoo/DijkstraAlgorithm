@@ -18,26 +18,25 @@ This code is a very crude example of Djkstra's path finding Algorithm in C++ (Vi
 The program creates a simple graph in `main.cpp` and calculate a few paths between some of the nodes in the graph.
 It will then print out the path to get to that node backwards.
 
-`
-
-	-= Example using Djkstra's Algorithm to calculate paths between connected nodes =
-	----------------
-	Calculated path from A to D
-	D <- A
-	----------------
-	----------------
-	Calculated path from D to A
-	A <- C <- D
-	----------------
-	----------------
-	Calculated path from A to E
-	NOT REACHABLE
-	----------------
-	----------------
-	Calculated path from A to A
-	A
-	----------------
-`
+```	
+-= Example using Djkstra's Algorithm to calculate paths between connected nodes =
+----------------
+Calculated path from A to D
+D <- A
+----------------
+----------------
+Calculated path from D to A
+A <- C <- D
+----------------
+----------------
+Calculated path from A to E
+NOT REACHABLE
+----------------
+----------------
+Calculated path from A to A
+A
+----------------
+```
 
 ## Implementation notes
 
