@@ -30,7 +30,7 @@ int main()
     cEdge* pEdgeAD = pNodeA->createEdge( 4, pNodeD );
 
 
-    cout << "-= Example using Djkstra's Algorithm to calculate paths between connected nodes =-\n";
+    cout << "-= Example using Dijkstra's Algorithm to calculate paths between connected nodes =-\n";
     //find a path between 2 nodes
     pGraph->findPath( pNodeA, pNodeD );
     //find a path between 2 nodes
